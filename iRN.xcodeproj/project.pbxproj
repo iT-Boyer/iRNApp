@@ -1,0 +1,159 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		84EAC70B21A8245600C2493D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84EAC6F821A8245400C2493D /* iRNApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 13B07F961A680F5B00A75B9A;
+			remoteInfo = iRNApp;
+		};
+		84EAC70D21A8245600C2493D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84EAC6F821A8245400C2493D /* iRNApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 00E356EE1AD99517003FC87E;
+			remoteInfo = iRNAppTests;
+		};
+		84EAC70F21A8245600C2493D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84EAC6F821A8245400C2493D /* iRNApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D02E47B1E0B4A5D006451C7;
+			remoteInfo = "iRNApp-tvOS";
+		};
+		84EAC71121A8245600C2493D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84EAC6F821A8245400C2493D /* iRNApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D02E4901E0B4A5D006451C7;
+			remoteInfo = "iRNApp-tvOSTests";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84EAC6F421A8245400C2493D /* index.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		84EAC6F521A8245400C2493D /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		84EAC6F621A8245400C2493D /* app.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = app.json; sourceTree = "<group>"; };
+		84EAC6F721A8245400C2493D /* App.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = App.js; sourceTree = "<group>"; };
+		84EAC6F821A8245400C2493D /* iRNApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = iRNApp.xcodeproj; path = ios/iRNApp.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		84EAC6ED21A823AB00C2493D = {
+			isa = PBXGroup;
+			children = (
+				84EAC6F721A8245400C2493D /* App.js */,
+				84EAC6F621A8245400C2493D /* app.json */,
+				84EAC6F421A8245400C2493D /* index.js */,
+				84EAC6F521A8245400C2493D /* package.json */,
+				84EAC6F821A8245400C2493D /* iRNApp.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		84EAC6F921A8245400C2493D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84EAC70C21A8245600C2493D /* iRNApp.app */,
+				84EAC70E21A8245600C2493D /* iRNAppTests.xctest */,
+				84EAC71021A8245600C2493D /* iRNApp-tvOS.app */,
+				84EAC71221A8245600C2493D /* iRNApp-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		84EAC6EE21A823AB00C2493D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+			};
+			buildConfigurationList = 84EAC6F121A823AB00C2493D /* Build configuration list for PBXProject "iRN" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84EAC6ED21A823AB00C2493D;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 84EAC6F921A8245400C2493D /* Products */;
+					ProjectRef = 84EAC6F821A8245400C2493D /* iRNApp.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		84EAC70C21A8245600C2493D /* iRNApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = iRNApp.app;
+			remoteRef = 84EAC70B21A8245600C2493D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84EAC70E21A8245600C2493D /* iRNAppTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = iRNAppTests.xctest;
+			remoteRef = 84EAC70D21A8245600C2493D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84EAC71021A8245600C2493D /* iRNApp-tvOS.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "iRNApp-tvOS.app";
+			remoteRef = 84EAC70F21A8245600C2493D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84EAC71221A8245600C2493D /* iRNApp-tvOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "iRNApp-tvOSTests.xctest";
+			remoteRef = 84EAC71121A8245600C2493D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin XCBuildConfiguration section */
+		84EAC6F221A823AB00C2493D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		84EAC6F321A823AB00C2493D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84EAC6F121A823AB00C2493D /* Build configuration list for PBXProject "iRN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EAC6F221A823AB00C2493D /* Debug */,
+				84EAC6F321A823AB00C2493D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84EAC6EE21A823AB00C2493D /* Project object */;
+}
