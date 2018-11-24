@@ -38,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8493477621A848B700288628 /* .babelrc */ = {isa = PBXFileReference; lastKnownFileType = text; path = .babelrc; sourceTree = "<group>"; };
 		84EAC6F421A8245400C2493D /* index.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
 		84EAC6F521A8245400C2493D /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
 		84EAC6F621A8245400C2493D /* app.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = app.json; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		84EAC6ED21A823AB00C2493D = {
 			isa = PBXGroup;
 			children = (
+				8493477621A848B700288628 /* .babelrc */,
 				84EAC6F721A8245400C2493D /* App.js */,
 				84EAC6F621A8245400C2493D /* app.json */,
 				84EAC6F421A8245400C2493D /* index.js */,
