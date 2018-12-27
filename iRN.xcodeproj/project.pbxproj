@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
+		8484D70721D479010011715E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8484D70321D479010011715E /* FastlaneSwiftRunner.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D556D6A91F6A08F5003108E3;
+			remoteInfo = FastlaneRunner;
+		};
 		84EAC70B21A8245600C2493D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 84EAC6F821A8245400C2493D /* iRNApp.xcodeproj */;
@@ -38,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8484D70321D479010011715E /* FastlaneSwiftRunner.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FastlaneSwiftRunner.xcodeproj; path = fastlane/swift/FastlaneSwiftRunner/FastlaneSwiftRunner.xcodeproj; sourceTree = "<group>"; };
 		8493477621A848B700288628 /* .babelrc */ = {isa = PBXFileReference; lastKnownFileType = text; path = .babelrc; sourceTree = "<group>"; };
 		84EAC6F421A8245400C2493D /* index.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
 		84EAC6F521A8245400C2493D /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
@@ -47,9 +55,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		8484D70421D479010011715E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8484D70821D479010011715E /* FastlaneRunner */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		84EAC6ED21A823AB00C2493D = {
 			isa = PBXGroup;
 			children = (
+				8484D70321D479010011715E /* FastlaneSwiftRunner.xcodeproj */,
 				8493477621A848B700288628 /* .babelrc */,
 				84EAC6F721A8245400C2493D /* App.js */,
 				84EAC6F621A8245400C2493D /* app.json */,
@@ -89,6 +106,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 8484D70421D479010011715E /* Products */;
+					ProjectRef = 8484D70321D479010011715E /* FastlaneSwiftRunner.xcodeproj */;
+				},
+				{
 					ProductGroup = 84EAC6F921A8245400C2493D /* Products */;
 					ProjectRef = 84EAC6F821A8245400C2493D /* iRNApp.xcodeproj */;
 				},
@@ -100,6 +121,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		8484D70821D479010011715E /* FastlaneRunner */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = FastlaneRunner;
+			remoteRef = 8484D70721D479010011715E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		84EAC70C21A8245600C2493D /* iRNApp.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
