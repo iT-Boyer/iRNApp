@@ -1,0 +1,27 @@
+# For more information about this configuration visit
+# https://docs.fastlane.tools/actions/gym/#gymfile
+
+# In general, you can use the options available
+# fastlane gym --help
+
+# Remove the # in front of the line to enable the option
+
+scheme("iRNApp")
+workspace "../../hexo.xcworkspace"
+clean true
+silent true
+configuration "Debug"
+sdk "iOS 12.1"    #xcodebuild -showsdks
+export_method "development"
+output_directory "./build"
+output_name "iRNApp.ipa"
+#export_options({
+#               method: "development",
+#               #           manifest: {
+#               #           appURL: "https://example.com/My App.ipa",
+#               #           },
+#               #           thinning: "<thin-for-all-variants>",
+##               provisioningProfiles: {
+##                    "com.jinher.iJHAPP" => "match Development com.jinher.iJHAPP",
+##               }
+#               })
