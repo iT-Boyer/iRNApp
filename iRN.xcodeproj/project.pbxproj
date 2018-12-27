@@ -52,6 +52,8 @@
 		8484D71321D4871C0011715E /* report.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = report.xml; sourceTree = "<group>"; };
 		8484D71421D487660011715E /* FastlaneSwiftRunner.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FastlaneSwiftRunner.xcodeproj; path = fastlaneswift/swift/FastlaneSwiftRunner/FastlaneSwiftRunner.xcodeproj; sourceTree = "<group>"; };
 		8493477621A848B700288628 /* .babelrc */ = {isa = PBXFileReference; lastKnownFileType = text; path = .babelrc; sourceTree = "<group>"; };
+		84CEA35E21D4F80A0004F68E /* .env.default */ = {isa = PBXFileReference; lastKnownFileType = text; path = .env.default; sourceTree = "<group>"; };
+		84CEA36421D4FBAA0004F68E /* Matchfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = Matchfile; sourceTree = "<group>"; };
 		84EAC6F421A8245400C2493D /* index.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
 		84EAC6F521A8245400C2493D /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
 		84EAC6F621A8245400C2493D /* app.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = app.json; sourceTree = "<group>"; };
@@ -63,9 +65,11 @@
 		8484D70E21D4871C0011715E /* fastlane */ = {
 			isa = PBXGroup;
 			children = (
+				84CEA35E21D4F80A0004F68E /* .env.default */,
 				8484D70F21D4871C0011715E /* Gymfile */,
 				8484D71021D4871C0011715E /* Appfile */,
 				8484D71121D4871C0011715E /* Fastfile */,
+				84CEA36421D4FBAA0004F68E /* Matchfile */,
 				8484D71221D4871C0011715E /* README.md */,
 				8484D71321D4871C0011715E /* report.xml */,
 			);

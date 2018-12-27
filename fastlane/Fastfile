@@ -19,14 +19,15 @@ platform :ios do
   desc "Description of what the lane does"
 #  import_from_git(url: 'https://github.com/thierryxing/Fastfiles', branch: 'master')
   lane :custom_lane do
+    match
     gym
     #安装到模拟器
 #    install_app_on_simulator(device_type: "iPhoneXR", app_path: "build/iRNApp.ipa")
     #安装到真机
-#    install_on_device(
-#                        device_id: "52eee8ae3cd6f61bdb77aa7551e3539fd755d023",
-#                        ipa: "build/iRNApp.ipa"
-#                        )
+    install_on_device(
+                        device_id: "52eee8ae3cd6f61bdb77aa7551e3539fd755d023",
+                        ipa: "build/iRNApp.ipa"
+                        )
     # add actions here: https://docs.fastlane.tools/actions
   end
 end
