@@ -1,4 +1,4 @@
-git_url("https://huosan:jiwangQ3203@gitee.com/huosan/iMatchProfile.git")
+git_url("http")
 
 type("development") # The default type, can be: appstore, adhoc, enterprise or development
 force true

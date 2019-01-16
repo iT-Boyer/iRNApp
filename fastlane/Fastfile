@@ -19,7 +19,7 @@ platform :ios do
   desc "Description of what the lane does"
 #  import_from_git(url: 'https://github.com/thierryxing/Fastfiles', branch: 'master')
   lane :custom_lane do
-    match
+    match(git_url:ENV['MATCH_GITURL'])
     gym
     #安装到模拟器
 #    install_app_on_simulator(device_type: "iPhoneXR", app_path: "build/iRNApp.ipa")
