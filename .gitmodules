@@ -1,0 +1,4 @@
+[submodule "fastlane"]
+	path = fastlane
+	url = https://github.com/huos3203/iFastlaneRunner.git
+    branch = iRnApp

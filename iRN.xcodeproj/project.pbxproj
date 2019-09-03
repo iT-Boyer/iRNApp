@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		8484D71821D487660011715E /* PBXContainerItemProxy */ = {
+		84DA910F231E3E6300E8F59E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8484D71421D487660011715E /* FastlaneSwiftRunner.xcodeproj */;
+			containerPortal = 84DA910B231E3E6300E8F59E /* FastlaneSwiftRunner.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D556D6A91F6A08F5003108E3;
 			remoteInfo = FastlaneRunner;
@@ -50,10 +50,10 @@
 		8484D71121D4871C0011715E /* Fastfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = Fastfile; sourceTree = "<group>"; };
 		8484D71221D4871C0011715E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8484D71321D4871C0011715E /* report.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = report.xml; sourceTree = "<group>"; };
-		8484D71421D487660011715E /* FastlaneSwiftRunner.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FastlaneSwiftRunner.xcodeproj; path = fastlaneswift/swift/FastlaneSwiftRunner/FastlaneSwiftRunner.xcodeproj; sourceTree = "<group>"; };
 		8493477621A848B700288628 /* .babelrc */ = {isa = PBXFileReference; lastKnownFileType = text; path = .babelrc; sourceTree = "<group>"; };
 		84CEA35E21D4F80A0004F68E /* .env.default */ = {isa = PBXFileReference; lastKnownFileType = text; path = .env.default; sourceTree = "<group>"; };
 		84CEA36421D4FBAA0004F68E /* Matchfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = Matchfile; sourceTree = "<group>"; };
+		84DA910B231E3E6300E8F59E /* FastlaneSwiftRunner.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FastlaneSwiftRunner.xcodeproj; path = fastlane/swift/FastlaneSwiftRunner/FastlaneSwiftRunner.xcodeproj; sourceTree = "<group>"; };
 		84EAC6F421A8245400C2493D /* index.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
 		84EAC6F521A8245400C2493D /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
 		84EAC6F621A8245400C2493D /* app.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = app.json; sourceTree = "<group>"; };
@@ -73,13 +73,14 @@
 				8484D71221D4871C0011715E /* README.md */,
 				8484D71321D4871C0011715E /* report.xml */,
 			);
-			path = fastlane;
+			name = fastlane;
+			path = fastlane1;
 			sourceTree = "<group>";
 		};
-		8484D71521D487660011715E /* Products */ = {
+		84DA910C231E3E6300E8F59E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8484D71921D487660011715E /* FastlaneRunner */,
+				84DA9110231E3E6300E8F59E /* FastlaneRunner */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,8 +88,8 @@
 		84EAC6ED21A823AB00C2493D = {
 			isa = PBXGroup;
 			children = (
+				84DA910B231E3E6300E8F59E /* FastlaneSwiftRunner.xcodeproj */,
 				84EAC6F821A8245400C2493D /* iRNApp.xcodeproj */,
-				8484D71421D487660011715E /* FastlaneSwiftRunner.xcodeproj */,
 				8484D70E21D4871C0011715E /* fastlane */,
 				8493477621A848B700288628 /* .babelrc */,
 				84EAC6F721A8245400C2493D /* App.js */,
@@ -128,8 +129,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 8484D71521D487660011715E /* Products */;
-					ProjectRef = 8484D71421D487660011715E /* FastlaneSwiftRunner.xcodeproj */;
+					ProductGroup = 84DA910C231E3E6300E8F59E /* Products */;
+					ProjectRef = 84DA910B231E3E6300E8F59E /* FastlaneSwiftRunner.xcodeproj */;
 				},
 				{
 					ProductGroup = 84EAC6F921A8245400C2493D /* Products */;
@@ -143,11 +144,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		8484D71921D487660011715E /* FastlaneRunner */ = {
+		84DA9110231E3E6300E8F59E /* FastlaneRunner */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = FastlaneRunner;
-			remoteRef = 8484D71821D487660011715E /* PBXContainerItemProxy */;
+			remoteRef = 84DA910F231E3E6300E8F59E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		84EAC70C21A8245600C2493D /* iRNApp.app */ = {
